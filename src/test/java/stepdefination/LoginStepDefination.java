@@ -26,4 +26,15 @@ public class LoginStepDefination {
 		System.out.println("landed on homepage");
 		System.out.println("closed chrome browser");
 	}
+	@Then("it should throw some error")
+	public void it_should_throw_some_error() {
+		System.out.println("invalid password");;
+	}
+	@Then("it should throw some error invalid username")
+	public void it_should_throw_some_error_invalid_username() {
+	    System.out.println("invalid username");
+	}
+
+
+
 }

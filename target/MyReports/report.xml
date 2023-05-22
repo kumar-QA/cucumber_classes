@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="0.327">
+    <testcase classname="verifying login functionality" name="Verify login function with valid credentials" time="0.087">
+        <system-out><![CDATA[Given customer landed on loginpage..........................................passed
+When customer enter username and password...................................passed
+Then customer should land on homepage.......................................passed
+And click on login button...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="verifying login functionality" name="Verify login function with valid username and invalid password" time="0.006">
+        <system-out><![CDATA[Given customer landed on loginpage..........................................passed
+When customer enter username and password...................................passed
+Then it should throw some error.............................................passed
+And click on login button...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="verifying login functionality" name="Verify login function with Invalid username and valid password" time="0.003">
+        <system-out><![CDATA[Given customer landed on loginpage..........................................passed
+When customer enter username and password...................................passed
+Then it should throw some error invalid username............................passed
+And click on login button...................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="verifying login functionality" name="statment" time="0">
+        <failure message="The scenario has no steps" type="java.lang.Exception"/>
+    </testcase>
+    <testcase classname="verifying login functionality" name="statments" time="0">
+        <failure message="The scenario has no steps" type="java.lang.Exception"/>
+    </testcase>
+</testsuite>

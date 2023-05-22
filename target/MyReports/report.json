@@ -1,0 +1,286 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2023-05-22T07:11:53.061Z",
+        "line": 8,
+        "name": "Verify login function with valid credentials",
+        "description": "",
+        "id": "verifying-login-functionality;verify-login-function-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1993900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "customer landed on loginpage",
+            "match": {
+              "location": "stepdefination.LoginStepDefination.customer_landed_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "customer enter username and password",
+            "match": {
+              "location": "stepdefination.LoginStepDefination.customer_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "customer should land on homepage",
+            "match": {
+              "location": "stepdefination.LoginStepDefination.customer_should_land_on_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "click on login button",
+            "match": {
+              "location": "stepdefination.LoginStepDefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ALL"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2023-05-22T07:11:53.158Z",
+        "line": 16,
+        "name": "Verify login function with valid username and invalid password",
+        "description": "",
+        "id": "verifying-login-functionality;verify-login-function-with-valid-username-and-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "customer landed on loginpage",
+            "match": {
+              "location": "stepdefination.LoginStepDefination.customer_landed_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "customer enter username and password",
+            "match": {
+              "location": "stepdefination.LoginStepDefination.customer_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "it should throw some error",
+            "match": {
+              "location": "stepdefination.LoginStepDefination.it_should_throw_some_error()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "click on login button",
+            "match": {
+              "location": "stepdefination.LoginStepDefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ALL"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2023-05-22T07:11:53.169Z",
+        "line": 23,
+        "name": "Verify login function with Invalid username and valid password",
+        "description": "",
+        "id": "verifying-login-functionality;verify-login-function-with-invalid-username-and-valid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "customer landed on loginpage",
+            "match": {
+              "location": "stepdefination.LoginStepDefination.customer_landed_on_loginpage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 996200,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "customer enter username and password",
+            "match": {
+              "location": "stepdefination.LoginStepDefination.customer_enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "it should throw some error invalid username",
+            "match": {
+              "location": "stepdefination.LoginStepDefination.it_should_throw_some_error_invalid_username()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 997000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "click on login button",
+            "match": {
+              "location": "stepdefination.LoginStepDefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ALL"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2023-05-22T07:11:53.175Z",
+        "line": 31,
+        "name": "statment",
+        "description": "stament1\nstament2\nstament3\nstament4",
+        "id": "verifying-login-functionality;statment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@ALL"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": []
+      },
+      {
+        "start_timestamp": "2023-05-22T07:11:53.178Z",
+        "line": 38,
+        "name": "statments",
+        "description": "stament1\nstament2\nstament4\nstament3",
+        "id": "verifying-login-functionality;statments",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [],
+        "tags": [
+          {
+            "name": "@ALL"
+          }
+        ]
+      }
+    ],
+    "name": "verifying login functionality",
+    "description": "",
+    "id": "verifying-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@ALL",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
